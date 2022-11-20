@@ -16,7 +16,7 @@ void FillMatrix(int[,] matr)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            matr[i, j] = matr[i, j] = new Random().Next(1, 20);
+            matr[i, j] = matr[i, j] = rnd.Next(1, 20);
         }
     }
 }
